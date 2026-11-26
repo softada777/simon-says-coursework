@@ -1,0 +1,79 @@
+/* Контейнер для центрирования */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Красивый темный заголовок */
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 42px;
+  text-align: center;
+}
+
+/* Текст под заголовком и статусы */
+.status-text {
+  font-size: 18px;
+  color: #666;
+  margin: 20px 0;
+  text-align: center;
+  min-height: 24px;
+}
+
+/* Основные кнопки (Начать игру, На главную) */
+.start-btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #2ecc71; /* Зеленая кнопка */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.start-btn:hover {
+  background-color: #27ae60;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: #3498db;
+}
+.btn-secondary:hover {
+  background-color: #2980b9;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+}
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Кнопка возврата */
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: #eee;
+}
